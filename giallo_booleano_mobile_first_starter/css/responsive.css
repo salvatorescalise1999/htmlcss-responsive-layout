@@ -1,1 +1,73 @@
 /* Soluzione qui */
+
+
+
+/* RESPONSIVE TABLET*/
+@media screen and (min-width: 768px) {
+
+    #topbar {
+        display: block;
+    }
+
+    main {
+        padding: 50px;
+    }
+
+    .recipe-origin {
+        display: inline;
+    }
+
+    .recipe-title {
+        font-size: 1.5rem;
+    }
+
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .blender {
+        width: calc(100% / 3);
+    }
+
+    .clock {
+        width: calc(100% / 3);
+    }
+
+    .cost {
+        width: calc(100% / 3);
+    }
+
+    .pie {
+        width: calc(100% / 3);
+    }
+
+    .utensils {
+        width: calc(100% / 3);
+    }
+
+    .pin {
+        width: calc(100% / 3);
+    }
+
+    .social-networks button {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .ads {
+        display: block;
+    }
+
+    .presentation img {
+        float: left;
+        margin-right: 42px;
+    }
+
+}
+
+
+
+/* RESPONSIVE DESKTOP*/
+@media screen and (min-width: 992px) {}
