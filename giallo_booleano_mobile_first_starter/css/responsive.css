@@ -24,7 +24,6 @@
     .quick-notes ul {
         display: flex;
         flex-wrap: wrap;
-
     }
 
     .blender {
@@ -64,10 +63,68 @@
         float: left;
         margin-right: 42px;
     }
-
 }
 
 
-
 /* RESPONSIVE DESKTOP*/
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+
+    .recipe-title {
+        font-size: 2rem;
+    }
+
+    .recipe-card {
+        display: flex;
+    }
+
+    .recipe-info {
+        width: 30%;
+    }
+
+    .recipe-video {
+        width: 70%;
+        height: 44vh;
+    }
+
+    .quick-notes ul {
+        display: block;
+    }
+
+    .blender {
+        width: auto;
+    }
+
+    .clock {
+        width: auto;
+    }
+
+    .cost {
+        width: auto;
+    }
+
+    .pie {
+        width: auto;
+    }
+
+    .utensils {
+        width: auto;
+    }
+
+    .pin {
+        width: auto;
+    }
+
+    .social-networks .label {
+        display: inline;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    address {
+        text-align: left;
+    }
+
+}
